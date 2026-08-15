@@ -1,5 +1,4 @@
 {
- "generated": "2026-08-15T08:18:54Z",
  "count": 315,
  "books": [
   {
@@ -767,8 +766,8 @@
    "summary": "Conspiracy chronicles how Peter Thiel orchestrated a nearly decade-long secret campaign to destroy Gawker Media after it outed him as gay in a blog post. Thiel covertly bankrolled Hulk Hogan’s lawsuit over the publication of a sex tape, using the courts to bring about Gawker’s bankruptcy and shuttering the site with a $140 million judgment. Ryan Holiday decrypts the layers of planning, strategy, and moral complexity behind the scheme—highlighting how power, patience, and secrecy can tilt battles and reshape media, privacy, and justice in the modern age."
   },
   {
-   "id": "conspiracy--a-history-of-bollocks-theories-and-how-not-to-fall-for-them",
-   "title": "Conspiracy- A History of Bollocks Theories, and How Not to Fall for Them",
+   "id": "conspiracy",
+   "title": "Conspiracy",
    "authors": [
     "Jonn Elledge",
     "Tom Phillips"
@@ -780,9 +779,9 @@
    "shelfNum": 1,
    "zone": "1 STEM",
    "completed": null,
-   "cover": "covers/conspiracy--a-history-of-bollocks-theories-and-how-not-to-fall-for-them.jpg",
-   "coverThumb": "covers_thumb/conspiracy--a-history-of-bollocks-theories-and-how-not-to-fall-for-them.jpg",
-   "spineColor": "#415550",
+   "cover": null,
+   "coverThumb": null,
+   "spineColor": null,
    "coverRemote": "https://m.media-amazon.com/images/I/71N8FPWfw0L._SL1500_.jpg",
    "summary": "This book explores the strange, entertaining, and often troubling history of conspiracy theories—from moon landing denial and the Satanic Panic to QAnon and anti-vaccine movements—arguing that humans are continually drawn to believing we're being deceived, even when the truth is plain. Phillips and Elledge take readers through bizarre backstories such as UFO sightings, rumours about Britney Spears, and claims that centuries of European history might be fabricated. Blending humour with serious insight, they warn that indulging in conspiratorial thinking can erode trust in evidence and institutions, and challenge readers to abandon online echo chambers in favour of scepticism grounded in hard facts."
   },
@@ -6078,7 +6077,7 @@
       "enlightenment-now",
       "emergence",
       "dust",
-      "conspiracy--a-history-of-bollocks-theories-and-how-not-to-fall-for-them",
+      "conspiracy",
       "connections",
       "being-mortal",
       "astrophysics-for-people-in-a-hurry",

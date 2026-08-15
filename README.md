@@ -19,6 +19,21 @@ Built with **Hugo** (static) + a small vanilla-JS front end, deployed to
 - `layouts/index.html` + `static/js/shelf.js` + `static/css/shelf.css` render
   the bookshelf from that JSON. No build step beyond Hugo.
 
+## Keeping it up to date (automatic)
+
+When you flip a book's `readingStatus` to **Read** in the vault, the site picks it
+up on its own — no manual steps.
+
+- `update.sh` rebuilds from the vault and, **only if something changed**, commits
+  and pushes; the push auto-deploys via GitHub Pages (live in ~1 min).
+- A launchd agent (`~/Library/LaunchAgents/com.rahul.library-update.plist`) runs
+  `update.sh` every 30 minutes, so newly-Read books appear within half an hour.
+- Want it instantly? Run it yourself any time: `~/Coding/library-website/update.sh`
+- Change the cadence: edit `StartInterval` (seconds) in the plist, then
+  `launchctl unload` + `launchctl load -w` it. Disable it entirely with
+  `launchctl unload -w ~/Library/LaunchAgents/com.rahul.library-update.plist`.
+- Logs: `update.log` in this folder.
+
 ## Rebuild the data (run whenever you shelf new books)
 
 ```bash

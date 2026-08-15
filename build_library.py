@@ -421,8 +421,9 @@ def build(download_covers=True):
         _TMP_PNG.unlink()
 
     rooms = assemble_rooms(books)
+    # NOTE: deliberately no build timestamp — keeping the JSON stable when nothing
+    # changed lets the auto-update job detect "no change" and skip a needless deploy.
     payload = {
-        "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "count": len(books),
         "books": books,
         "rooms": rooms,
