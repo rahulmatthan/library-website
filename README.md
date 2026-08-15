@@ -22,17 +22,23 @@ Built with **Hugo** (static) + a small vanilla-JS front end, deployed to
 ## Keeping it up to date (automatic)
 
 When you flip a book's `readingStatus` to **Read** in the vault, the site picks it
-up on its own — no manual steps.
+up on its own — no manual steps. This uses the same watcher pattern as
+photo-website.
 
-- `update.sh` rebuilds from the vault and, **only if something changed**, commits
-  and pushes; the push auto-deploys via GitHub Pages (live in ~1 min).
-- A launchd agent (`~/Library/LaunchAgents/com.rahul.library-update.plist`) runs
-  `update.sh` every 30 minutes, so newly-Read books appear within half an hour.
-- Want it instantly? Run it yourself any time: `~/Coding/library-website/update.sh`
-- Change the cadence: edit `StartInterval` (seconds) in the plist, then
-  `launchctl unload` + `launchctl load -w` it. Disable it entirely with
-  `launchctl unload -w ~/Library/LaunchAgents/com.rahul.library-update.plist`.
-- Logs: `update.log` in this folder.
+- `watch-and-deploy.sh` runs continuously, polling `~/Vaults/Eden/Alexandria`
+  every 10s. When a note changes and edits have settled, it runs `update.sh`.
+- `update.sh` rebuilds from the vault and, **only if the site data actually
+  changed**, commits and pushes; the push auto-deploys via GitHub Pages
+  (live in ~1 min). Editing an author page or a non-material note pushes nothing.
+- The watcher runs via launchd agent **`com.rahulmatthan.library`**
+  (`~/Library/LaunchAgents/com.rahulmatthan.library.plist`, `KeepAlive` +
+  `RunAtLoad` — starts at login, restarts if it dies).
+- Want it instantly (or the watcher's off)? Run `~/Coding/library-website/update.sh`.
+- Controls:
+  - status: `launchctl list | grep com.rahulmatthan.library`
+  - stop:   `launchctl unload -w ~/Library/LaunchAgents/com.rahulmatthan.library.plist`
+  - start:  `launchctl load -w ~/Library/LaunchAgents/com.rahulmatthan.library.plist`
+- Logs: `update.log` (deploys) here; `/tmp/library-watcher.log` (watcher).
 
 ## Rebuild the data (run whenever you shelf new books)
 
