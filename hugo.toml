@@ -1,0 +1,14 @@
+# Public URL — custom domain served via static/CNAME on GitHub Pages.
+baseURL = "https://library.rahulmatthan.com/"
+languageCode = "en-in"
+title = "Rahul's Library"
+timeZone = "Asia/Kolkata"
+
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[outputs]
+  home = ["HTML"]
+
+[params]
+  description = "Every book Rahul Matthan has read — browsed the way they sit on his shelves, room by room, shelf by shelf."
+  owner = "Rahul Matthan"
