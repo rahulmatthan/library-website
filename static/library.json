@@ -1,5 +1,5 @@
 {
- "count": 315,
+ "count": 316,
  "books": [
   {
    "id": "1929",
@@ -5168,6 +5168,25 @@
    "summary": "An argument that private technology companies have quietly usurped powers that once belonged to states—over speech, surveillance, security, and even foreign policy—hollowing out democratic governance. Drawing on her experience as a European parliamentarian, Schaake charts how this shift happened and proposes concrete measures to reassert public and democratic control over the tech sector."
   },
   {
+   "id": "the-thinking-machine",
+   "title": "The Thinking Machine",
+   "authors": [
+    "Stephen Witt"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "technology",
+   "subgenreLabel": "Technology",
+   "region": "world",
+   "shelfNum": 2,
+   "zone": "1 STEM",
+   "completed": null,
+   "cover": "covers/the-thinking-machine.jpg",
+   "coverThumb": "covers_thumb/the-thinking-machine.jpg",
+   "spineColor": "#2cc92f",
+   "coverRemote": "https://m.media-amazon.com/images/I/71FszlYFMtL._SL1500_.jpg",
+   "summary": ""
+  },
+  {
    "id": "the-third-pillar",
    "title": "The Third Pillar",
    "authors": [
@@ -6106,6 +6125,7 @@
       "the-victorian-internet",
       "the-twenty-six-words-that-created-the-internet",
       "the-truth-machine",
+      "the-thinking-machine",
       "the-square-and-the-tower",
       "the-seventh-sense",
       "the-politics-of-innovation",
