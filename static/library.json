@@ -1347,11 +1347,11 @@
     "Nicola Twilley"
    ],
    "genre": "non-fiction",
-   "subgenre": "food",
-   "subgenreLabel": "Food",
+   "subgenre": "technology",
+   "subgenreLabel": "Technology",
    "region": "world",
-   "shelfNum": 11,
-   "zone": "4 Craft",
+   "shelfNum": 2,
+   "zone": "1 STEM",
    "completed": null,
    "cover": "covers/frostbite.jpg",
    "coverThumb": "covers_thumb/frostbite.jpg",
@@ -2324,11 +2324,11 @@
     "Noah Whiteman"
    ],
    "genre": "non-fiction",
-   "subgenre": "food",
-   "subgenreLabel": "Food",
+   "subgenre": "science",
+   "subgenreLabel": "Science",
    "region": "world",
-   "shelfNum": 11,
-   "zone": "4 Craft",
+   "shelfNum": 1,
+   "zone": "1 STEM",
    "completed": null,
    "cover": "covers/most-delicious-poison.jpg",
    "coverThumb": "covers_thumb/most-delicious-poison.jpg",
@@ -6082,6 +6082,7 @@
       "quanta-and-fields",
       "our-biggest-experiment",
       "nano-comes-to-life",
+      "most-delicious-poison",
       "mathematica",
       "life-on-the-edge",
       "invisible-empire",
@@ -6174,6 +6175,7 @@
       "human-compatible",
       "how-innovation-works",
       "homo-deus",
+      "frostbite",
       "fancy-bear-goes-phishing",
       "everybody-lies",
       "eccentric-orbits",
@@ -6448,8 +6450,6 @@
      "key": "food",
      "label": "11 · Food",
      "bookIds": [
-      "most-delicious-poison",
-      "frostbite",
       "from-the-kings-table-to-street-food"
      ]
     }
