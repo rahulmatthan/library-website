@@ -1,5 +1,5 @@
 {
- "count": 316,
+ "count": 317,
  "books": [
   {
    "id": "1929",
@@ -3354,6 +3354,25 @@
    "summary": "An argument that the nations which come to dominate an era are not those that first invent a breakthrough technology but those that most successfully diffuse it across their whole economy. Drawing on the histories of the Industrial Revolutions, Ding develops a \"GPT diffusion\" theory of general-purpose technologies and applies it to today's contest over artificial intelligence between the United States and China."
   },
   {
+   "id": "telecom-wars",
+   "title": "Telecom Wars",
+   "authors": [
+    "Deepali Gupta"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "technology",
+   "subgenreLabel": "Technology",
+   "region": "india",
+   "shelfNum": 2,
+   "zone": "1 STEM",
+   "completed": null,
+   "cover": "covers/telecom-wars.jpg",
+   "coverThumb": "covers_thumb/telecom-wars.jpg",
+   "spineColor": "#741f22",
+   "coverRemote": "https://m.media-amazon.com/images/I/61xW+KsBDWL._SL1311_.jpg",
+   "summary": ""
+  },
+  {
    "id": "the-afterlife-of-data",
    "title": "The Afterlife of Data",
    "authors": [
@@ -6149,6 +6168,7 @@
       "the-anarchist-in-the-library",
       "the-age-of-living-machines",
       "the-age-of-ai",
+      "telecom-wars",
       "technology-and-the-rise-of-great-powers",
       "talk-to-me",
       "system-error",
