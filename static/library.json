@@ -1,5 +1,5 @@
 {
- "count": 320,
+ "count": 321,
  "books": [
   {
    "id": "1929",
@@ -1303,6 +1303,26 @@
    "summary": "Radhika Iyengar spent seven to eight years researching the Dom community of Varanasi. The book explores the lives of the Doms, a Dalit community that has been entrusted with the traditional role of cremating the dead at Manikarnika Ghat in Varanasi. Through interviews with members of the Dom community, Iyengar delves into their struggles, hopes, and desires, shedding light on the social fabric of the ghats and the caste system that has marginalized them.*\n\n*The book is an exploration of the business of death in Banaras, centering the narratives of the labor that fuels the fire that is critical to the city. Iyengar's writing is empathetic and concerned, presenting the lived reality of the Doms and compelling the reader to acknowledge their plight and confront their own complicity."
   },
   {
+   "id": "fiscal-fables",
+   "title": "Fiscal Fables",
+   "authors": [
+    "Sarthak Pradhan",
+    "Pranay Kotasthane"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "economics",
+   "subgenreLabel": "Economics",
+   "region": "india",
+   "shelfNum": 7,
+   "zone": "3 Society",
+   "completed": "2026-09-14",
+   "cover": "covers/fiscal-fables.jpg",
+   "coverThumb": "covers_thumb/fiscal-fables.jpg",
+   "spineColor": "#8c695a",
+   "coverRemote": "https://m.media-amazon.com/images/I/71FkmuxUiaL._SL1500_.jpg",
+   "summary": "Two Takshashila Institution researchers set out to fix a problem they state plainly: India argues constantly about public money—north versus south, \"freebies\" versus welfare, the Centre versus the states over GST—but almost always in the absence of any grasp of public finance itself. Existing books on the subject, they note, are \"academic and dry.\" *Fiscal Fables* is their attempt at a citizen's primer, explaining taxation, spending, budgeting and fiscal policy through relatable stories and everyday examples rather than equations. It sits in the same line as Kotasthane's earlier public-policy explainers such as *Missing in Action* and [[When the Chips Are Down]].\n\nThe book makes a deliberate structural choice: instead of starting with what governments spend, it starts with how they take money from you, because \"that's where the *khel* begins.\" Revenue comes from three places—taxes, non-tax revenue and borrowing—and of these, taxation is \"the Rahul Dravid of government revenue: reliable and consistent.\" From there the authors work through the distortions baked into Indian taxation, the logic and politics of subsidies and cash transfers, and what a budget actually commits a government to.\n\nThe later sections move from concepts to India's live fiscal disputes. They unpack the perennial tensions of **fiscal federalism**—how the Finance Commission divides the pool, why richer southern states feel they subsidise the north, and why GST has become a standing quarrel between the Union and the states. The most pointed argument concerns **cities**: urban India generates the bulk of national output, yet its municipal governments run on a shoestring, with little taxing power of their own and heavy dependence on transfers from above.\n\nThe underlying purpose is civic rather than technical—to give readers enough of the machinery to judge the government's role in the economy for themselves. The book is accompanied by an online \"Public Finance Playground\" where readers can test the ideas against real budget numbers."
+  },
+  {
    "id": "forged-in-crisis",
    "title": "Forged in Crisis",
    "authors": [
@@ -2542,7 +2562,7 @@
    "region": "world",
    "shelfNum": 1,
    "zone": "1 STEM",
-   "completed": null,
+   "completed": "2026-09-20",
    "cover": "covers/on-the-future-of-species.jpg",
    "coverThumb": "covers_thumb/on-the-future-of-species.jpg",
    "spineColor": "#f3e602",
@@ -6130,6 +6150,7 @@
      "key": "science",
      "label": "01 · Science",
      "bookIds": [
+      "on-the-future-of-species",
       "the-color-of-north",
       "anaximander",
       "an-immense-world",
@@ -6157,7 +6178,6 @@
       "range",
       "quanta-and-fields",
       "our-biggest-experiment",
-      "on-the-future-of-species",
       "nano-comes-to-life",
       "most-delicious-poison",
       "mathematica",
@@ -6451,6 +6471,7 @@
      "key": "economics",
      "label": "07 · Economics",
      "bookIds": [
+      "fiscal-fables",
       "why-europe-grew-rich-and-asia-did-not",
       "the-wealth-of-humans",
       "the-spider-network",
