@@ -1,5 +1,5 @@
 {
- "count": 318,
+ "count": 320,
  "books": [
   {
    "id": "1929",
@@ -2180,6 +2180,25 @@
    "spineColor": "#d4d5cd",
    "coverRemote": "https://m.media-amazon.com/images/I/71aaFrLCpyL._SL1500_.jpg",
    "summary": "\"Life on the Edge\"  argues that the seemingly miraculous properties of life itself may be explained through quantum mechanics operating at a biological level. The authors contend that quantum effects, previously thought to occur only in the subatomic realm, play a crucial role in fundamental biological processes like [[photosynthesis]], animal navigation, and even our sense of smell. Through detailed examination of scientific research and accessible explanations of complex concepts, they demonstrate how [[quantum tunelling]], [[superposition]], and [[entanglement]] might be essential to life's basic functions, rather than being limited to the quantum physics laboratory. It argues that the boundary between the quantum and biological worlds is far more blurred than previously thought, and that [[quantum mechanics]] may be the missing piece in our understanding of how life originated and continues to function with such remarkable efficiency and precision."
+  },
+  {
+   "id": "london-falling",
+   "title": "London Falling",
+   "authors": [
+    "Patrick Radden Keefe"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "society",
+   "subgenreLabel": "Society",
+   "region": "world",
+   "shelfNum": 8,
+   "zone": "3 Society",
+   "completed": null,
+   "cover": "covers/london-falling.jpg",
+   "coverThumb": "covers_thumb/london-falling.jpg",
+   "spineColor": "#7c6740",
+   "coverRemote": "https://m.media-amazon.com/images/I/810KMKnqjkL._SL1500_.jpg",
+   "summary": ""
   },
   {
    "id": "made-in-india",
@@ -5378,6 +5397,25 @@
    "summary": "The Wealth of Humans_ argues that digital technologies and globalization have made human labor abundant, eroding workers’ bargaining power and pushing a growing share of value toward scarce assets—urban agglomerations, intellectual property, platforms, and the social capital embedded in elite networks and institutions. Ryan Avent traces how automation thins middle-skill jobs, credentialism and licensing gatekeep opportunity, superstar firms and expensive cities concentrate rents, and frayed social contracts fuel political backlash; he emphasizes that prosperity now depends less on individual effort than on access to productive ecosystems. The book’s policy program focuses on shifting and sharing rents by loosening housing constraints in productive cities, reforming IP and occupational licensing, encouraging migration and firm entry, investing in skills and experimentation, strengthening social insurance (up to and including income supports), and rebuilding institutions that enable cooperation and wage growth. His conclusion is that without deliberate redistribution of the new scarcities and renewal of civic and workplace institutions, technological progress will keep widening inequality and undermining democratic stability."
   },
   {
+   "id": "the-web-beneath-the-waves",
+   "title": "The Web Beneath the Waves",
+   "authors": [
+    "Samanth Subramanian"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "technology",
+   "subgenreLabel": "Technology",
+   "region": null,
+   "shelfNum": 2,
+   "zone": "1 STEM",
+   "completed": null,
+   "cover": "covers/the-web-beneath-the-waves.jpg",
+   "coverThumb": "covers_thumb/the-web-beneath-the-waves.jpg",
+   "spineColor": "#3b3247",
+   "coverRemote": "https://m.media-amazon.com/images/I/81TcuDERALL._SL1500_.jpg",
+   "summary": ""
+  },
+  {
    "id": "the-wizard-and-the-prophet",
    "title": "The Wizard and the Prophet",
    "authors": [
@@ -6162,6 +6200,7 @@
       "we-are-bellingcat",
       "this-is-how-they-tell-me-the-world-ends",
       "the-world-in-a-grain",
+      "the-web-beneath-the-waves",
       "the-victorian-internet",
       "the-twenty-six-words-that-created-the-internet",
       "the-truth-machine",
@@ -6442,6 +6481,7 @@
       "the-feared",
       "the-billionaire-raj",
       "midnights-borders",
+      "london-falling",
       "indias-forgotten-country",
       "h-pop",
       "fire-on-the-ganges",
