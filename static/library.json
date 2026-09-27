@@ -1,5 +1,5 @@
 {
- "count": 317,
+ "count": 318,
  "books": [
   {
    "id": "1929",
@@ -2510,6 +2510,25 @@
    "spineColor": "#35b6d6",
    "coverRemote": "https://m.media-amazon.com/images/I/71qt3WoDi2L._SL1500_.jpg",
    "summary": "A comprehensive manual on how to write clear, concise, and engaging prose across all forms of nonfiction. Zinsser emphasises simplicity, economy, and humanity in writing—urging writers to strip away clutter, avoid jargon, and find their authentic voice. He covers principles of good writing such as clarity, tone, and structure, as well as practical guidance for specific genres like interviews, travel writing, memoir, and business writing. Through examples and reflections drawn from decades of teaching and editing, Zinsser shows that writing is a process of thinking clearly and rewriting relentlessly. The book concludes that good writing is fundamentally an expression of respect—for language, for the reader, and for one’s own ideas—and that mastery comes through constant refinement and honesty."
+  },
+  {
+   "id": "on-the-future-of-species",
+   "title": "On the Future of Species",
+   "authors": [
+    "Adrian Woolfson"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "science",
+   "subgenreLabel": "Science",
+   "region": "world",
+   "shelfNum": 1,
+   "zone": "1 STEM",
+   "completed": null,
+   "cover": "covers/on-the-future-of-species.jpg",
+   "coverThumb": "covers_thumb/on-the-future-of-species.jpg",
+   "spineColor": "#f3e602",
+   "coverRemote": "https://books.google.com/books/content?id=YmpnEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+   "summary": ""
   },
   {
    "id": "once-upon-a-prime",
@@ -6100,6 +6119,7 @@
       "range",
       "quanta-and-fields",
       "our-biggest-experiment",
+      "on-the-future-of-species",
       "nano-comes-to-life",
       "most-delicious-poison",
       "mathematica",
