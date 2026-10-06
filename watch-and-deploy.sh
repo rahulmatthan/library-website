@@ -7,8 +7,8 @@
 # Runs continuously via launchd (com.rahulmatthan.library, KeepAlive+RunAtLoad).
 
 export PATH="/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-WATCH_DIR="/Users/rahul/Vaults/Eden/Alexandria"
-REPO_DIR="/Users/rahul/Coding/library-website"
+WATCH_DIR="$HOME/Vaults/Eden/Alexandria"
+REPO_DIR="$HOME/Coding/library-website"
 CHECK_INTERVAL=10   # seconds between checks
 SETTLE=8            # wait for a burst of edits to stop before deploying
 

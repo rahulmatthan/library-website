@@ -4,12 +4,14 @@
 #
 # Run it by hand any time for an instant update:   ~/Coding/library-website/update.sh
 # It also runs automatically on a schedule via the launchd agent
-# com.rahul.library-update (see README).
+# com.crusty.library on the Mac Mini (see README).
 
 export PATH="/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-REPO="/Users/rahul/Coding/library-website"
+REPO="$HOME/Coding/library-website"
 LOG="$REPO/update.log"
 cd "$REPO" || exit 1
+# The Mini's watcher and hand runs on the laptop share the repo: start from the remote.
+git pull -q --rebase --autostash origin main >> "$LOG" 2>&1 || true
 
 {
   echo "----- $(date '+%Y-%m-%d %H:%M:%S') -----"

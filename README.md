@@ -30,15 +30,15 @@ photo-website.
 - `update.sh` rebuilds from the vault and, **only if the site data actually
   changed**, commits and pushes; the push auto-deploys via GitHub Pages
   (live in ~1 min). Editing an author page or a non-material note pushes nothing.
-- The watcher runs via launchd agent **`com.rahulmatthan.library`**
-  (`~/Library/LaunchAgents/com.rahulmatthan.library.plist`, `KeepAlive` +
-  `RunAtLoad` — starts at login, restarts if it dies).
-- Want it instantly (or the watcher's off)? Run `~/Coding/library-website/update.sh`.
-- Controls:
-  - status: `launchctl list | grep com.rahulmatthan.library`
-  - stop:   `launchctl unload -w ~/Library/LaunchAgents/com.rahulmatthan.library.plist`
-  - start:  `launchctl load -w ~/Library/LaunchAgents/com.rahulmatthan.library.plist`
-- Logs: `update.log` (deploys) here; `/tmp/library-watcher.log` (watcher).
+- **Runs on the office Mac Mini** (since 6 Oct 2026), not the laptop, so it works
+  while the laptop sleeps. The vault reaches the Mini through repo-sync (every 5 min),
+  so a book flipped to Read is live within ~10 min from any machine.
+- The watcher is launchd agent **`com.crusty.library`** on the Mini
+  (`KeepAlive` + `RunAtLoad`; plist kept in `~/dotfiles/mini/launchagents/`).
+- Want it instantly? `ssh mini Coding/library-website/update.sh`. Running `update.sh`
+  on the laptop also works: it pulls first, so the two never diverge.
+- Controls (on the Mini): `launchctl list | grep library`, `launchctl bootout|bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.crusty.library.plist`
+- Logs (on the Mini): `update.log` (deploys) here; `~/Library/Logs/library-watcher.log` (watcher).
 
 ## Rebuild the data (run whenever you shelf new books)
 

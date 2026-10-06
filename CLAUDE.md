@@ -51,15 +51,15 @@ politics, law-policy, economics, society, self_help, arts, food).
 
 ## How updating works (self-updating)
 
-Flip a book's `readingStatus` to **Read** in Obsidian → it's live in ~30s. Chain:
-launchd `com.rahulmatthan.library` (KeepAlive+RunAtLoad) → `watch-and-deploy.sh`
+Flip a book's `readingStatus` to **Read** in Obsidian → live within ~10 min (repo-sync carries the
+vault to the office Mac Mini, where the watcher runs since 6 Oct 2026). Chain:
+launchd `com.crusty.library` on the Mini (KeepAlive+RunAtLoad) → `watch-and-deploy.sh`
 (polls the vault every 10s, waits for edits to settle) → `update.sh` (rebuilds,
 commits + pushes **only if the site data changed**) → GitHub Actions deploys.
 
-- Instant manual update: `~/Coding/library-website/update.sh`
-- Watcher status/stop/start: `launchctl list|unload -w|load -w` on
-  `~/Library/LaunchAgents/com.rahulmatthan.library.plist`
-- Logs: `update.log` (deploys), `/tmp/library-watcher.log` (watcher)
+- Instant manual update: `ssh mini Coding/library-website/update.sh` (or run it locally; it pulls first)
+- Watcher: `com.crusty.library` on the Mini; plist in `~/dotfiles/mini/launchagents/`
+- Logs (Mini): `update.log` (deploys), `~/Library/Logs/library-watcher.log` (watcher)
 
 ## Deploy (already done; for reference)
 
