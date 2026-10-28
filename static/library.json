@@ -1,5 +1,5 @@
 {
- "count": 321,
+ "count": 323,
  "books": [
   {
    "id": "1929",
@@ -2608,6 +2608,25 @@
    "summary": "Origin Story presents the “Big History” of the universe, weaving together insights from cosmology, geology, biology, anthropology, and history into a single, coherent narrative. David Christian organizes this account around a series of “thresholds”—moments when increasing complexity gave rise to new forms of order: the Big Bang, the formation of stars and galaxies, the creation of Earth and the emergence of life, the evolution of humans with language and collective learning, the agricultural revolution, and the modern era shaped by fossil fuels and global networks. He emphasises energy flows and the Goldilocks principle (conditions being “just right”) as the drivers of complexity, culminating in today’s Anthropocene epoch, where humans wield planetary-scale influence. The book situates human history in a cosmic framework, highlighting both our fragility and responsibility in shaping the future."
   },
   {
+   "id": "other-minds",
+   "title": "Other Minds",
+   "authors": [
+    "Peter Godfrey-Smith"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "science",
+   "subgenreLabel": "Science",
+   "region": "world",
+   "shelfNum": 1,
+   "zone": "1 STEM",
+   "completed": "2026-10-28",
+   "cover": "covers/other-minds.jpg",
+   "coverThumb": "covers_thumb/other-minds.jpg",
+   "spineColor": "#c3af9a",
+   "coverRemote": "https://m.media-amazon.com/images/I/91ln-qbquVL._SL1500_.jpg",
+   "summary": ""
+  },
+  {
    "id": "our-biggest-experiment",
    "title": "Our Biggest Experiment",
    "authors": [
@@ -3927,6 +3946,25 @@
    "spineColor": "#e72328",
    "coverRemote": "https://m.media-amazon.com/images/I/71SQVp6XlwL._SL1500_.jpg",
    "summary": "On the psychology of con artists and why people fall for frauds, scams, and swindles. Drawing on research in psychology, neuroscience, and behavioural economics, Konnikova dissects the “long con” into its stages—from the “put-up” (identifying a mark) to the “pay-off” (extracting money or trust)—and explains how con artists exploit universal human traits like empathy, trust, hope, and the desire for meaning. Through vivid case studies of famous scams, she shows that susceptibility is not limited to the gullible but is rooted in the very cognitive and emotional mechanisms that make social life possible. The book concludes that while cons expose human vulnerability, they also reveal how our capacity for belief and trust is essential for cooperation and progress."
+  },
+  {
+   "id": "the-conscience-network",
+   "title": "The Conscience Network",
+   "authors": [
+    "Sugata Srinivasaraju"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "history",
+   "subgenreLabel": "History",
+   "region": "india",
+   "shelfNum": 3,
+   "zone": "2 History",
+   "completed": "2026-10-28",
+   "cover": "covers/the-conscience-network.jpg",
+   "coverThumb": "covers_thumb/the-conscience-network.jpg",
+   "spineColor": "#adafad",
+   "coverRemote": "https://m.media-amazon.com/images/I/81UNFuArnAL._SL1500_.jpg",
+   "summary": ""
   },
   {
    "id": "the-constitution-of-knowledge",
@@ -6150,6 +6188,7 @@
      "key": "science",
      "label": "01 · Science",
      "bookIds": [
+      "other-minds",
       "on-the-future-of-species",
       "the-color-of-north",
       "anaximander",
@@ -6300,6 +6339,7 @@
      "key": "history",
      "label": "03 · History",
      "bookIds": [
+      "the-conscience-network",
       "1929",
       "india-after-gandhi",
       "vienna",
