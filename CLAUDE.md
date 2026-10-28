@@ -57,6 +57,7 @@ launchd `com.crusty.library` on the Mini (KeepAlive+RunAtLoad) → `watch-and-de
 (polls the vault every 10s, waits for edits to settle) → `update.sh` (rebuilds,
 commits + pushes **only if the site data changed**) → GitHub Actions deploys.
 
+- **From the browser:** the Library tab of the Mini hub (http://100.66.147.13:4850/library/) marks books read, writes summaries, sets covers and adds new books; it edits the vault notes and the watcher does the rest.
 - Instant manual update: `ssh mini Coding/library-website/update.sh` (or run it locally; it pulls first)
 - Watcher: `com.crusty.library` on the Mini; plist in `~/dotfiles/mini/launchagents/`
 - Logs (Mini): `update.log` (deploys), `~/Library/Logs/library-watcher.log` (watcher)
