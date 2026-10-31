@@ -1,5 +1,5 @@
 {
- "count": 323,
+ "count": 324,
  "books": [
   {
    "id": "1929",
@@ -5188,6 +5188,25 @@
    "summary": "The Science of Star Wars examines the technologies, phenomena, and creatures depicted in the Star Wars universe through the lens of real-world science. The book analyses whether lightsabers, droids, faster-than-light travel, the Force, and alien life forms could exist within the laws of physics, biology, and engineering as we know them. Cavelos draws on astrophysics, robotics, genetics, and neuroscience to explore what is theoretically possible, what is speculative, and what firmly belongs in science fiction. By separating fact from fantasy, she shows how Star Wars reflects humanity’s scientific aspirations and limitations, while also inspiring innovation."
   },
   {
+   "id": "the-second-kind-of-impossible",
+   "title": "The Second Kind of Impossible",
+   "authors": [
+    "Paul J. Steinhardt"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "science",
+   "subgenreLabel": "Science",
+   "region": "world",
+   "shelfNum": 1,
+   "zone": "1 STEM",
+   "completed": "2026-10-31",
+   "cover": "covers/the-second-kind-of-impossible.jpg",
+   "coverThumb": "covers_thumb/the-second-kind-of-impossible.jpg",
+   "spineColor": "#783e23",
+   "coverRemote": "https://m.media-amazon.com/images/I/71ek7991vzL._SL1500_.jpg",
+   "summary": ""
+  },
+  {
    "id": "the-seventh-sense",
    "title": "The Seventh Sense",
    "authors": [
@@ -6188,6 +6207,7 @@
      "key": "science",
      "label": "01 · Science",
      "bookIds": [
+      "the-second-kind-of-impossible",
       "other-minds",
       "on-the-future-of-species",
       "the-color-of-north",
