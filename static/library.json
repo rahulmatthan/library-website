@@ -1,5 +1,5 @@
 {
- "count": 324,
+ "count": 325,
  "books": [
   {
    "id": "1929",
@@ -669,6 +669,25 @@
    "spineColor": "#214451",
    "coverRemote": "https://books.google.com/books/content?id=eTlvEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=public",
    "summary": "Rather technical book on China and how it drove its technology policy to become world beating. Interestign perspective if you read this along with Dan Wang's Breakneck. This is a much more sober and pro-China take but the decades long push to achieve technological superiority is clear to see."
+  },
+  {
+   "id": "chokepoints",
+   "title": "Chokepoints",
+   "authors": [
+    "Edward Fishman"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "politics",
+   "subgenreLabel": "Politics",
+   "region": "world",
+   "shelfNum": 5,
+   "zone": "3 Society",
+   "completed": "2026-10-31",
+   "cover": "covers/chokepoints.jpg",
+   "coverThumb": "covers_thumb/chokepoints.jpg",
+   "spineColor": "#024c9e",
+   "coverRemote": "https://m.media-amazon.com/images/I/71TY5iRKRrL._SL1500_.jpg",
+   "summary": ""
   },
   {
    "id": "co-intelligence",
@@ -6451,6 +6470,7 @@
      "key": "politics",
      "label": "05 · Politics",
      "bookIds": [
+      "chokepoints",
       "a-sixth-of-humanity",
       "why-the-poor-dont-kill-us",
       "age-of-revolutions",
