@@ -1,5 +1,5 @@
 {
- "count": 325,
+ "count": 328,
  "books": [
   {
    "id": "1929",
@@ -76,6 +76,25 @@
    "spineColor": "#473a25",
    "coverRemote": "https://m.media-amazon.com/images/I/A1O4jsoNTkL._SL1500_.jpg",
    "summary": "A Dominant Character is a vivid biography of J. B. S. Haldane, the brilliant, boisterous, and polarising geneticist whose life straddled groundbreaking science and radical politics. Subramanian portrays Haldane’s early experiences—from a childhood shaped by his scientist father’s experiments, to serving in the trenches of World War I and conducting self-experiments on his own body—as crucial to his fearless curiosity. Haldane's scientific achievements include foundational work in population genetics (linkage, mutation rates, heterozygote advantage, evolutionary theory) and prescient predictions in his 1924 book about future technologies—from IVF to renewable energy. Yet, his unwavering commitment to Communism led him into moral conflict, notably during the Lysenko affair, where he sided with political loyalty over scientific integrity. His later years saw him move to India, embracing its academic landscape while retaining his candidness and vigour. Subramanian neither lionises nor condemns him, instead compassionately revealing Haldane’s intellectual contradictions, flamboyant style, and enduring relevance to debates on science, belief, and the public role of scientists."
+  },
+  {
+   "id": "a-man-for-all-seasons",
+   "title": "A Man for All Seasons",
+   "authors": [
+    "Narayani Basu"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "biography",
+   "subgenreLabel": "Biography",
+   "region": "india",
+   "shelfNum": 4,
+   "zone": "2 History",
+   "completed": "2026-11-02",
+   "cover": "covers/a-man-for-all-seasons.jpg",
+   "coverThumb": "covers_thumb/a-man-for-all-seasons.jpg",
+   "spineColor": "#a39ba4",
+   "coverRemote": "https://m.media-amazon.com/images/I/81nd+hdBcgL._SL1500_.jpg",
+   "summary": ""
   },
   {
    "id": "a-part-apart",
@@ -366,6 +385,25 @@
    "summary": "Antisocial Media argues that Facebook’s rise stemmed from hubristic ideals of connection, but the platform has devolved into a powerful engine of surveillance capitalism that erodes democracy and civil discourse. Vaidhyanathan explores how Facebook manipulates attention through emotionally charged content, traps users with addictive feedback loops, and reduces the information ecosystem to chaotic, emotionally-driven noise. The platform amplifies tribalism, filter bubbles, and targeted persuasion—enabling manipulation in politics, disinformation, and social division. Vaidhyanathan concludes that the core problem isn’t a flaw or misuse, but is structural: “the problem with Facebook is Facebook,” and surface-level fixes can’t undo its deep political and cultural impact. He advocates for strong privacy and antitrust measures—like breaking up the company—but remains skeptical about their sufficiency without deeper systemic change."
   },
   {
+   "id": "apple-in-china",
+   "title": "Apple in China",
+   "authors": [
+    "Patrick McGee"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "technology",
+   "subgenreLabel": "Technology",
+   "region": "world",
+   "shelfNum": 2,
+   "zone": "1 STEM",
+   "completed": "2026-11-02",
+   "cover": "covers/apple-in-china.jpg",
+   "coverThumb": "covers_thumb/apple-in-china.jpg",
+   "spineColor": "#661415",
+   "coverRemote": "https://books.google.com/books/content?id=XZoYEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+   "summary": ""
+  },
+  {
    "id": "army-of-none",
    "title": "Army of None",
    "authors": [
@@ -574,6 +612,25 @@
    "spineColor": "#948a69",
    "coverRemote": "https://m.media-amazon.com/images/I/814dMeutLEL._SL1500_.jpg",
    "summary": "An on-the-ground account of China’s tumultuous decade under Xi Jinping, chronicling how the country’s economic model shifted from digital consumer innovation to state-driven industrial and technological self-reliance. Drawing from his years living and working in China, Wang argues that while the West fixated on China’s tech giants and censorship, the real transformation occurred in factories, supply chains, and industrial policy — where China built world-class capabilities in batteries, semiconductors, and advanced manufacturing. He portrays a society caught between confidence in its productive capacity and fear of political tightening, exploring how the state’s push for control reshaped entrepreneurship, education, and daily life. The book concludes that China’s future will depend less on consumer apps and more on whether it can sustain innovation under authoritarian constraint — a balance that defines both its success and fragility."
+  },
+  {
+   "id": "brilliant-blunders",
+   "title": "Brilliant Blunders",
+   "authors": [
+    "Mario Livio"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "science",
+   "subgenreLabel": "Science",
+   "region": null,
+   "shelfNum": 1,
+   "zone": "1 STEM",
+   "completed": "2026-11-02",
+   "cover": "covers/brilliant-blunders.jpg",
+   "coverThumb": "covers_thumb/brilliant-blunders.jpg",
+   "spineColor": "#53585c",
+   "coverRemote": "https://m.media-amazon.com/images/I/71R-Vvwo6LL._SL1500_.jpg",
+   "summary": "The astrophysicist starts from an inversion of the usual story of science: rather than a march from triumph to triumph, progress is punctuated—and often propelled—by the serious mistakes of its greatest practitioners. Livio picks five giants and one colossal error each, and uses them to show that a blunder is not the opposite of discovery but frequently its precondition. The subtitle sets the range: *From Darwin to Einstein*.\n\nDarwin built natural selection on top of \"blending inheritance,\" the assumption that offspring are an average of their parents—which, as the engineer Fleeming Jenkin pointed out, would dilute any useful variation out of existence within a few generations. Lord Kelvin calculated the age of the Earth at under 100 million years, far too young for evolution; Livio argues the flaw was less his ignorance of radioactivity than his refusal to entertain convection inside the planet, a possibility a former assistant, John Perry, put to him directly. Linus Pauling, the finest chemist of his age, rushed out a triple-helix model of DNA in 1953 that violated his own chemistry, handing the race to Watson and Crick. Fred Hoyle, who brilliantly predicted the carbon resonance that makes stellar nucleosynthesis possible, spent decades defending a steady-state universe against the \"Big Bang\"—a name he himself coined on BBC radio, and which Livio argues was never meant as the sneer legend makes it.\n\nThe Einstein chapter is the book's most satisfying twist. The cosmological constant he added to keep the universe static, and supposedly called his \"biggest blunder,\" turns out to have been neither: Livio traces the quote to George Gamow and doubts Einstein ever said it, and the constant returned in 1998 as the leading explanation for dark energy. The real mistake, he suggests, was abandoning it.\n\nRunning beneath the case studies is an inquiry into *why* brilliant minds dig in. Livio draws on cognitive science—the \"feeling of knowing\" that makes certainty an emotion rather than a conclusion—to explain why expertise can harden into stubbornness. The result is part history of science, part meditation on the psychology of error, and a persuasive case that the freedom to be spectacularly wrong is one of science's most valuable features."
   },
   {
    "id": "burn-book",
@@ -6226,6 +6283,7 @@
      "key": "science",
      "label": "01 · Science",
      "bookIds": [
+      "brilliant-blunders",
       "the-second-kind-of-impossible",
       "other-minds",
       "on-the-future-of-species",
@@ -6283,6 +6341,7 @@
      "key": "technology",
      "label": "02 · Technology",
      "bookIds": [
+      "apple-in-china",
       "the-web-beneath-the-waves",
       "empire-of-ai",
       "house-of-huawei",
@@ -6429,6 +6488,7 @@
      "key": "biography",
      "label": "04 · Biography",
      "bookIds": [
+      "a-man-for-all-seasons",
       "indira-gandhi-and-the-years-that-transformed-india",
       "a-promised-land",
       "a-dominant-character",
