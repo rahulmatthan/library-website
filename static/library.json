@@ -1,5 +1,5 @@
 {
- "count": 328,
+ "count": 329,
  "books": [
   {
    "id": "1929",
@@ -1397,6 +1397,25 @@
    "spineColor": "#8c695a",
    "coverRemote": "https://m.media-amazon.com/images/I/71FkmuxUiaL._SL1500_.jpg",
    "summary": "Two Takshashila Institution researchers set out to fix a problem they state plainly: India argues constantly about public money—north versus south, \"freebies\" versus welfare, the Centre versus the states over GST—but almost always in the absence of any grasp of public finance itself. Existing books on the subject, they note, are \"academic and dry.\" *Fiscal Fables* is their attempt at a citizen's primer, explaining taxation, spending, budgeting and fiscal policy through relatable stories and everyday examples rather than equations. It sits in the same line as Kotasthane's earlier public-policy explainers such as *Missing in Action* and [[When the Chips Are Down]].\n\nThe book makes a deliberate structural choice: instead of starting with what governments spend, it starts with how they take money from you, because \"that's where the *khel* begins.\" Revenue comes from three places—taxes, non-tax revenue and borrowing—and of these, taxation is \"the Rahul Dravid of government revenue: reliable and consistent.\" From there the authors work through the distortions baked into Indian taxation, the logic and politics of subsidies and cash transfers, and what a budget actually commits a government to.\n\nThe later sections move from concepts to India's live fiscal disputes. They unpack the perennial tensions of **fiscal federalism**—how the Finance Commission divides the pool, why richer southern states feel they subsidise the north, and why GST has become a standing quarrel between the Union and the states. The most pointed argument concerns **cities**: urban India generates the bulk of national output, yet its municipal governments run on a shoestring, with little taxing power of their own and heavy dependence on transfers from above.\n\nThe underlying purpose is civic rather than technical—to give readers enough of the machinery to judge the government's role in the economy for themselves. The book is accompanied by an online \"Public Finance Playground\" where readers can test the ideas against real budget numbers."
+  },
+  {
+   "id": "for-a-just-republic",
+   "title": "For a Just Republic",
+   "authors": [
+    "Partha Chatterjee"
+   ],
+   "genre": "non-fiction",
+   "subgenre": "politics",
+   "subgenreLabel": "Politics",
+   "region": "india",
+   "shelfNum": 5,
+   "zone": "3 Society",
+   "completed": "2026-11-02",
+   "cover": "covers/for-a-just-republic.jpg",
+   "coverThumb": "covers_thumb/for-a-just-republic.jpg",
+   "spineColor": "#bebcb5",
+   "coverRemote": "https://m.media-amazon.com/images/P/0231224273.01._SCLZZZZZZZ_.jpg",
+   "summary": "For a Just Republic: The People of India and the State. Partha Chatterjee examines the relationship between the people of India and the state, tracing — through his characteristic method of building theory from granular histories — how the promises of the republic have met the realities of governance, from the Constituent Assembly debates onward, and what a just republic would require."
   },
   {
    "id": "forged-in-crisis",
@@ -6530,6 +6549,7 @@
      "key": "politics",
      "label": "05 · Politics",
      "bookIds": [
+      "for-a-just-republic",
       "chokepoints",
       "a-sixth-of-humanity",
       "why-the-poor-dont-kill-us",
